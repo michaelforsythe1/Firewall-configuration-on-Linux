@@ -34,24 +34,27 @@ Continue by allowing specific services like http, https, and a range of ports  <
 <img src="https://i.postimg.cc/3Rk5KnG6/Screenshot-2024-07-28-152620.png" height="60%" width="60%" alt="allow ports"/>
 <br />
 <br />
-Allow specific ip addresses and its subnet <br/>
+Allow specific ip addresses and its subnet <br />
 <img src="https://i.postimg.cc/ZnHZDqbr/Screenshot-2024-07-28-153832.png" height="60%" width="60%" alt="allow IP and subnet"/>
 <br />
 <br />
-Deny port 23 (Telnet) and a specific ip address  <br/>
-<img src="https://i.postimg.cc/26xPCXsY/Screenshot-2024-07-28-154130.png" height="60%" width="60%" alt="Deny port number"/>
+Deny port 23 and a specific IP address <br />
+<img src="https://i.postimg.cc/c4yMZhtb/Screenshot-2024-07-28-154130.png" height="60%" width="60%" alt="Deny ports"/>
 <br />
 <br />
-Summary of configured rules  <br/>
-<img src="https://i.postimg.cc/hP14v4hq/Screenshot-2024-07-28-154251.png" height="60%" width="60%" alt="Alt port number"/>
+Summary of configured rules  <br />
+<img src="https://i.postimg.cc/hP14v4hq/Screenshot-2024-07-28-154251.png" height="60%" width="60%" alt="summary of rules"/>
 <br />
 <br />
-Alternatively, the summary of configured rules can be viewed in numbered mode using the command *sudo ufw status numbered*  <br/>
+Alternatively, the summary of configured rules can be viewed in numbered mode using the command *sudo ufw status numbered*. From here, we can easily delete a rule by specifying the rule number, *e.g. sudo ufw delete 2*  <br/>
 <img src="https://i.postimg.cc/Yqjqy1F0/Screenshot-2024-07-28-154401.png" height="60%" width="60%" alt="Alt port number"/>
 <br />
-
 <br />
-Alternatively, the port number can be used in the command, instead of the name, like this *'sudo ufw allow 22/tcp'*  <br/>
-<img src="https://i.postimg.cc/QdH91rcn/Screenshot-2024-07-28-152024.png" height="60%" width="60%" alt="Alt port number"/>
+Using rule specification  <br/>
+<img src="https://i.postimg.cc/pdhpmNgY/Screenshot-2024-07-28-154608.png" height="60%" width="60%" alt="Alt port number"/>
+<br />
+<br />
+Time to test the firewall from another system (Another VM hosting Linux mint <br/>
+<img src="https://i.postimg.cc/SRN4zCnF/Screenshot-2024-07-28-235330.png" height="60%" width="60%" alt="Alt port number"/>
 <br />
 
