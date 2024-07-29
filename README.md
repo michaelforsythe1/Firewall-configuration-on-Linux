@@ -64,6 +64,6 @@ Using rule specification  <br/>
 Time to test the firewall rules from another system (Another VM hosting Linux Mint with the 'nmap' utility installed). 
 NMAP (network mapper) is used for network discovery and security auditing  <br/>
 <br/>
-<img src="https://i.postimg.cc/SRN4zCnF/Screenshot-2024-07-28-235330.png" height="80%" width="80%" alt="Test rules"/>
+<img src="https://i.postimg.cc/sD5P2Nkh/Screenshot-2024-07-28-235330.png" height="80%" width="80%" alt="Test rules"/>
 <br />
 
