@@ -13,41 +13,45 @@ Firewalls are crucial for protecting networks from unauthorized access and poten
 
 <h2>Project walkthrough</h2>
 
-<p align="center">
-Install Zorin OS as the Ubuntu system to use <br/>
-<img src="https://imgur.com/vm3ZjPU" height="80%" width="80%" alt="ZorinOS installation"/>
+<br/> Assuming that Zorin OS (an Ubuntu system has been installed), first update the system <br/>
+ <br/>
+<img src="https://i.postimg.cc/0jxXNn8G/Screenshot-2024-07-28-151138.png" height="60%" width="60%" alt="update system"/>
+<br />
+ <br/> Install UFW and enable it <br/>
+ <br/>
+<img src="https://i.postimg.cc/tJZJY32T/Screenshot-2024-07-28-151432.png" height="60%" width="60%" alt="Enable UFW"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Allow SSH connections to prevent locking myself out of the system  <br/>
+<img src="https://i.postimg.cc/28YVcZhv/Screenshot-2024-07-28-151546.png" height="60%" width="60%" alt="Update system"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Alternatively, the port number can be used in the command, instead of the name, like this *'sudo ufw allow 22/tcp'*  <br/>
+<img src="https://i.postimg.cc/QdH91rcn/Screenshot-2024-07-28-152024.png" height="60%" width="60%" alt="Alt port number"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Continue by allowing specific services like http, https, and a range of ports  <br/>
+<img src="https://i.postimg.cc/3Rk5KnG6/Screenshot-2024-07-28-152620.png" height="60%" width="60%" alt="allow ports"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Allow specific ip addresses and its subnet <br/>
+<img src="https://i.postimg.cc/ZnHZDqbr/Screenshot-2024-07-28-153832.png" height="60%" width="60%" alt="allow IP and subnet"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Deny port 23 (Telnet) and a specific ip address  <br/>
+<img src="https://i.postimg.cc/26xPCXsY/Screenshot-2024-07-28-154130.png" height="60%" width="60%" alt="Deny port number"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+Summary of configured rules  <br/>
+<img src="https://i.postimg.cc/hP14v4hq/Screenshot-2024-07-28-154251.png" height="60%" width="60%" alt="Alt port number"/>
+<br />
+<br />
+Alternatively, the summary of configured rules can be viewed in numbered mode using the command *sudo ufw status numbered*  <br/>
+<img src="https://i.postimg.cc/Yqjqy1F0/Screenshot-2024-07-28-154401.png" height="60%" width="60%" alt="Alt port number"/>
+<br />
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+<br />
+Alternatively, the port number can be used in the command, instead of the name, like this *'sudo ufw allow 22/tcp'*  <br/>
+<img src="https://i.postimg.cc/QdH91rcn/Screenshot-2024-07-28-152024.png" height="60%" width="60%" alt="Alt port number"/>
+<br />
+
