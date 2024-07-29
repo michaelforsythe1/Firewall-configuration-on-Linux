@@ -67,3 +67,10 @@ NMAP (network mapper) is used for network discovery and security auditing  <br/>
 <img src="https://i.postimg.cc/sD5P2Nkh/Screenshot-2024-07-28-235330.png" height="80%" width="80%" alt="Test rules"/>
 <br />
 
+<h3>Conclusion</h3>
+Document all rules you have added to UFW. This can be a simple text file listing each rule.
+<br />
+<br />
+This setup will help protect any network from unathorized access and potential risks. The configuration is a living organism, meaning, we will continue to refine it based on our network needs and monitor the logs for any suspicious activity.
+<br />
+
