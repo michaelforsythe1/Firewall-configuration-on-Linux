@@ -37,7 +37,7 @@ Continue by allowing specific services like http, https, and a range of ports  <
 <img src="https://i.postimg.cc/3Rk5KnG6/Screenshot-2024-07-28-152620.png" height="60%" width="60%" alt="allow ports"/>
 <br />
 <br />
-Allow specific ip addresses and its subnet <br />
+Allow specific IP address and its subnet <br />
 <img src="https://i.postimg.cc/ZnHZDqbr/Screenshot-2024-07-28-153832.png" height="60%" width="60%" alt="allow IP and subnet"/>
 <br />
 <br />
@@ -51,7 +51,7 @@ Summary of configured rules  <br />
 <img src="https://i.postimg.cc/hP14v4hq/Screenshot-2024-07-28-154251.png" height="60%" width="60%" alt="summary of rules"/>
 <br />
 <br />
-Alternatively, the summary of configured rules can be viewed in numbered mode using the command *sudo ufw status numbered*. From here, we can easily delete a rule by specifying the rule number, *e.g. 'sudo ufw delete 2'*  <br/>
+Alternatively, the summary of configured rules can be viewed in numbered mode by using the command *‘sudo ufw status numbered’*. From here, we can easily delete a rule by specifying the rule number, e.g. *‘sudo ufw delete (2)’*  <br/>
  <br/>
 <img src="https://i.postimg.cc/Yqjqy1F0/Screenshot-2024-07-28-154401.png" height="60%" width="60%" alt="specifying rule number"/>
 <br />
