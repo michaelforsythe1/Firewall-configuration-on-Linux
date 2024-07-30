@@ -22,7 +22,7 @@ Firewalls are crucial for protecting networks from unauthorized access and poten
 <img src="https://i.postimg.cc/tJZJY32T/Screenshot-2024-07-28-151432.png" height="60%" width="60%" alt="Enable UFW"/>
 <br />
 <br />
-Allow SSH connections to prevent locking myself out of the system  <br/>
+Allow SSH connections to prevent locking out my access to the system  <br/>
  <br/>
 <img src="https://i.postimg.cc/28YVcZhv/Screenshot-2024-07-28-151546.png" height="60%" width="60%" alt="Update system"/>
 <br />
