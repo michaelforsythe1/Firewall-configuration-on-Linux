@@ -1,7 +1,7 @@
 <h1>Linux Firewall configuration</h1>
 
 <h2>Description</h2>
-Firewalls are crucial for protecting networks from unauthorized access and potential threats. In this lab, I will be configuring a firewall on an Ubuntu system using UFW (Uncomplicated Firewall). 
+Firewalls are crucial for protecting networks from unauthorised access and potential threats. In this lab, I will configure a Ubuntu system firewall using UFW (Uncomplicated Firewall). 
 <br />
 
 
@@ -22,7 +22,7 @@ Firewalls are crucial for protecting networks from unauthorized access and poten
 <img src="https://i.postimg.cc/tJZJY32T/Screenshot-2024-07-28-151432.png" height="60%" width="60%" alt="Enable UFW"/>
 <br />
 <br />
-Allow SSH connections to prevent locking out my access to the system  <br/>
+Allow SSH connections <br/>
  <br/>
 <img src="https://i.postimg.cc/28YVcZhv/Screenshot-2024-07-28-151546.png" height="60%" width="60%" alt="Update system"/>
 <br />
@@ -75,6 +75,5 @@ Document all added rules. This can be a simple text file listing each rule.
 
 This setup will help protect any network from unauthorised access and potential risks. 
 However, a network administrator will continuously refine and reconfigure rules based on network needs.
-.
 <br />
 
