@@ -27,7 +27,7 @@ Allow SSH connections to prevent locking out my access to the system  <br/>
 <img src="https://i.postimg.cc/28YVcZhv/Screenshot-2024-07-28-151546.png" height="60%" width="60%" alt="Update system"/>
 <br />
 <br />
-Alternatively, the port number can be used in the command, instead of the name, like this *'sudo ufw allow 22/tcp'*  <br/>
+Alternatively, the port number can be used instead of the name, like this - *'sudo ufw allow 22/tcp'*  <br/>
  <br/>
 <img src="https://i.postimg.cc/QdH91rcn/Screenshot-2024-07-28-152024.png" height="60%" width="60%" alt="Alt port number"/>
 <br />
