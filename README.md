@@ -61,8 +61,8 @@ Using rule specification  <br/>
 <img src="https://i.postimg.cc/pdhpmNgY/Screenshot-2024-07-28-154608.png" height="60%" width="60%" alt="rule specs"/>
 <br />
 <br />
-Time to test the firewall rules from another system (Another VM hosting Linux Mint with the 'nmap' utility installed). 
-NMAP (network mapper) is used for network discovery and security auditing  <br/>
+It is time to test the firewall rules from another system (Another VM hosting Linux Mint OS with the nmap utility installed). Nmap or Network Mapper is used for network discovery and security audits
+ <br/>
 <br/>
 <img src="https://i.postimg.cc/sD5P2Nkh/Screenshot-2024-07-28-235330.png" height="80%" width="80%" alt="Test rules"/>
 <br />
@@ -71,6 +71,10 @@ NMAP (network mapper) is used for network discovery and security auditing  <br/>
 Document all rules you have added to UFW. This can be a simple text file listing each rule.
 <br />
 <br />
-This setup will help protect any network from unathorized access and potential risks. The configuration is a living organism, meaning, we will continue to refine it based on our network needs and monitor the logs for any suspicious activity.
+Document all added rules. This can be a simple text file listing each rule. 
+
+This setup will help protect any network from unauthorised access and potential risks. 
+However, a network administrator will continuously refine and reconfigure rules based on network needs.
+.
 <br />
 
