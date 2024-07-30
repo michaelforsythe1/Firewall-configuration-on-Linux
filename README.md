@@ -13,7 +13,7 @@ Firewalls are crucial for protecting networks from unauthorized access and poten
 
 <h2>Project walkthrough</h2>
 
-<br/> Assuming that Zorin OS (an Ubuntu system has been installed), first update the system <br/>
+<br/> Assuming Zorin OS (an Ubuntu system has been installed), the first step is to update the system <br/>
  <br/>
 <img src="https://i.postimg.cc/0jxXNn8G/Screenshot-2024-07-28-151138.png" height="60%" width="60%" alt="update system"/>
 <br />
