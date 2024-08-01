@@ -15,7 +15,7 @@ Firewalls are crucial for protecting networks from unauthorised access and poten
 
 <br/> Assuming Zorin OS (an Ubuntu system has been installed), the first step is to update the system <br/>
  <br/>
-<img src="https://i.postimg.cc/0jxXNn8G/Screenshot-2024-07-28-151138.png" height="60%" width="60%" alt="update system"/>
+<img src="https://i.postimg.cc/28gJbrvL/Screenshot-2024-07-30-123610.png" height="60%" width="60%" alt="update system"/>
 <br />
  <br/> Install UFW and enable it <br/>
  <br/>
