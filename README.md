@@ -1,7 +1,7 @@
 <h1>Linux Firewall configuration</h1>
 
 <h2>Description</h2>
-Firewalls are crucial for protecting networks from unauthorised access and potential threats. In this lab, I will configure a Ubuntu system firewall using UFW (Uncomplicated Firewall). 
+Firewalls are crucial for protecting networks from unauthorised access and potential threats. I will configure a Ubuntu system firewall in this lab using UFW (Uncomplicated Firewall). 
 <br />
 
 
